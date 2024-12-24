@@ -1,0 +1,73 @@
+# itch.io 下载的常见文件和目录
+**/__MACOSX/  # macOS 压缩包的资源分支
+**/.DS_Store
+**/.localized
+**/.Spotlight-V100
+**/.Trashes
+
+# 各种压缩文件（如果解压后不需要保留压缩包，则保留这些）
+**/*.zip
+**/*.rar
+**/*.7z
+**/*.tar
+**/*.tar.gz
+**/*.tar.bz2
+**/*.tar.xz
+**/*.gz
+**/*.bz2
+**/*.xz
+
+# itch.io 打包工具生成的临时文件
+**/_itch/
+
+# 各种编辑器或IDE的临时文件和目录
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+
+# 日志文件
+*.log
+
+# 媒体文件的缩略图或缓存
+**/._*
+**/*.thumb
+**/*.cache
+
+# 构建或输出目录
+**/build/
+**/dist/
+**/out/
+**/output/
+**/temp/
+
+# Unity 项目的常见忽略
+**/Library/
+**/Temp/
+**/Obj/
+**/Build/
+**/Builds/
+**/UserSettings/
+**/.pytest_cache/
+
+# Unreal Engine 项目的常见忽略
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+**/Backup/
+
+# Godot 项目的常见忽略
+.godot/
+export_presets.cfg
+*.import
+*.godot-cpp
+*.tres.orig
+
+# 其他你不想跟踪的文件或目录，例如空文件夹
+**/.gitkeep
+
+# 排除特定的文件夹或文件，即使它们匹配上面的规则
+!important_folder/
+!important_file.txt
